@@ -2,9 +2,9 @@
 
 namespace Aminetiyal\LaravelReusableActions\Tests;
 
+use Aminetiyal\LaravelReusableActions\LaravelReusableActionsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Aminetiyal\LaravelReusableActions\LaravelReusableActionsServiceProvider;
 
 class TestCase extends Orchestra
 {
