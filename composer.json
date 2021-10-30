@@ -17,6 +17,7 @@
     ],
     "require": {
         "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.4",
         "illuminate/contracts": "^8.37",
         "lorisleiva/laravel-actions": "^2.1",
         "spatie/data-transfer-object": "^3.7",
