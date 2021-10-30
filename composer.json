@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "aminetiyal/laravel-reusable-actions",
+    "description": "This is my package laravel-reusable-actions",
     "keywords": [
-        ":vendor_name",
+        "aminetiyal",
         "laravel",
-        ":package_slug"
+        "laravel-reusable-actions"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/aminetiyal/laravel-reusable-actions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Amine TIYAL",
+            "email": "aminetiyal@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Aminetiyal\\LaravelReusableActions\\": "src",
+            "Aminetiyal\\LaravelReusableActions\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Aminetiyal\\LaravelReusableActions\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Aminetiyal\\LaravelReusableActions\\LaravelReusableActionsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LaravelReusableActions": "Aminetiyal\\LaravelReusableActions\\LaravelReusableActionsFacade"
             }
         }
     },

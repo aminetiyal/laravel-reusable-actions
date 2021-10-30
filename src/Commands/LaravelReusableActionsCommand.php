@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Aminetiyal\LaravelReusableActions\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelReusableActionsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-reusable-actions';
 
     public $description = 'My command';
 
