@@ -4,7 +4,6 @@ use Aminetiyal\LaravelReusableActions\Actions\GetIpInfoAction;
 use Aminetiyal\LaravelReusableActions\DTOs\GetIpInfoDTO;
 
 it('can fetch ip information', function () {
-
     $ipListByCountry = [
         '69.162.81.155' => ['name' => 'United States', 'code' => 'US'],
         '197.221.23.194' => ['name' => 'South Africa', 'code' => 'ZA'],
