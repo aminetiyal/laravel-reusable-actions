@@ -2,9 +2,9 @@
 
 namespace Aminetiyal\LaravelReusableActions;
 
+use Aminetiyal\LaravelReusableActions\Commands\LaravelReusableActionsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Aminetiyal\LaravelReusableActions\Commands\LaravelReusableActionsCommand;
 
 class LaravelReusableActionsServiceProvider extends PackageServiceProvider
 {
